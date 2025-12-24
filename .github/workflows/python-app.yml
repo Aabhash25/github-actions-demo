@@ -25,6 +25,6 @@ jobs:
 
       - name: Run tests
         env:
-          PYTHONPATH: ./src # <-- This line tells Python to include src folder
+          PYTHONPATH: ./src # <-- Add this line
         run: |
-          pytest
+          pytest tests
